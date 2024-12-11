@@ -1,0 +1,28 @@
+{
+    "name": "storessuite/square-connect",
+    "description": "Adapter between storessuite/storessuite and storessuite/square.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "StoresSuite\\SquareConnect\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StoresSuite\\SquareConnect\\SquareConnectServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "sarojkalamagar",
+            "email": "sarojkalamagar@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/database": "^11.35"
+    }
+}
